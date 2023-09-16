@@ -1,0 +1,80 @@
+body {
+    margin: 1rem;
+    background-color: rgb(201, 165, 235);
+}
+
+footer {
+    margin: 1rem;
+    background-color: blueviolet;
+}
+
+.fundacion {
+    margin-top: 1rem;
+}
+
+.mansiones {
+    margin: 2rem;
+}
+
+.banner {
+    background: url("../assets/banner3.jpg") no-repeat center;
+    height: 400px;
+    position: relative;
+}
+
+.banner::after {
+    content: "";
+    background: linear-gradient(to right, #160024, #540979, #9500ff);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.banner .contenido {
+    position: relative;
+    top: 200px;
+    z-index: 100;
+
+}
+
+.banner .contenido h3,
+.banner .contenido p {
+    text-shadow: 1px 1px 2px black;
+}
+
+.btn.btn-primary {
+    background-color: #540979;
+    border: #160024;
+}
+
+.btn.btn-success {
+    background-color: #9500ff;
+    border: #540979;
+}
+
+.carousel-inner .carousel-control-prev .carousel-control-next{
+    height: 300px;
+}
+
+.colaboradores .empresas {
+    background-color: white;
+}
+
+.empresas .row {
+    margin: 2rem;
+}
+
+.action-call {
+    margin: 1rem;
+    color: aliceblue;
+}
+
+.infoemp {
+    text-align: right;
+}
+
+.profesionales {
+    margin: 5rem;
+}
